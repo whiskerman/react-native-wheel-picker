@@ -1,4 +1,5 @@
 declare module '@yz1311/react-native-wheel-picker' {
+    import { PickerIOS } from '@react-native-picker/picker';
     import * as React from 'react';
     import { StyleProp, TextStyle, ViewProps, ViewStyle } from 'react-native';
     import { Component } from 'react';

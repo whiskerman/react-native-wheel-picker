@@ -11,9 +11,9 @@ import {
     Animated,
     Platform,
     Dimensions,
-    PickerIOS,
     ViewPropTypes, StyleProp, ViewStyle, TextStyle,
 } from 'react-native';
+import { PickerIOS } from '@react-native-picker/picker';
 import PropTypes from 'prop-types';
 import WheelCurvedPicker from '../WheelCurvedPicker';
 
