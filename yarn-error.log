@@ -1,30 +1,30 @@
 Arguments: 
-  /usr/local/Cellar/node/12.9.1/bin/node /usr/local/bin/yarn install
+  /Users/fosafer/.nvm/versions/node/v15.5.0/bin/node /Users/fosafer/.nvm/versions/node/v15.5.0/bin/yarn install
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zhaoyang/android-sdk-macosx/platform-tools:/Users/zhaoyang/android-sdk-macosx/tools:/Users/zhaoyang/android-sdk-macosx/platform-tools:/Users/zhaoyang/android-sdk-macosx/tools
+  /bin:/usr/local/opt/qt/bin:/bin:/Volumes/USBDATA/Android/sdk/platform-tools:/Volumes/USBDATA/Android/sdk/emulator:/usr/local/opt/qt/bin:/Users/fosafer/opt/anaconda3/bin:/bin:/Volumes/USBDATA/Android/sdk/platform-tools:/Volumes/USBDATA/Android/sdk/emulator:/usr/local/opt/qt/bin:/Users/fosafer/.nvm/versions/node/v15.5.0/bin:/Volumes/USBDATA/Android/sdk/platform-tools:/Volumes/USBDATA/Android/sdk/emulator:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/opt/qt/bin:/Volumes/USBDATA/Android/sdk/platform-tools:/Volumes/USBDATA/Android/sdk/emulator:/Users/fosafer/opt/anaconda3/bin:/Users/fosafer/.nvm/versions/node/v15.5.0/bin:/Users/fosafer/opt/anaconda3/condabin
 
 Yarn version: 
-  1.17.3
+  1.22.10
 
 Node version: 
-  12.9.1
+  15.5.0
 
 Platform: 
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/zhaoyang/react-native-wheel-picker/package.json: Unexpected token r in JSON at position 753
+  SyntaxError: /Users/fosafer/workspace/carpooling/react-native-wheel-picker/package.json: Unexpected string in JSON at position 750
       at JSON.parse (<anonymous>)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at /Users/fosafer/.nvm/versions/node/v15.5.0/lib/node_modules/yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
-      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+      at step (/Users/fosafer/.nvm/versions/node/v15.5.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/fosafer/.nvm/versions/node/v15.5.0/lib/node_modules/yarn/lib/cli.js:321:13
 
 npm manifest: 
   {
-    "name": "@yz1311/react-native-wheel-picker",
-    "version": "0.1.2",
+    "name": "@whiskerman/react-native-wheel-picker",
+    "version": "0.2.5",
     "description": "React native cross platform picker.",
     "main": "index.js",
     "scripts": {
@@ -32,7 +32,7 @@ npm manifest:
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/lesliesam/react-native-wheel-picker.git"
+      "url": "git+https://github.com/whiskerman/react-native-wheel-picker.git"
     },
     "publishConfig": {
       "access": "public"
@@ -42,18 +42,17 @@ npm manifest:
       "picker",
   	  "wheel"
     ],
-    "author": "Yu Zheng",
+    "author": "Zhao Hai",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/yz1311/react-native-wheel-picker/issues"
+      "url": "https://github.com/whiskerman/react-native-wheel-picker/issues"
     },
-    "homepage": "https://github.com/lesliesam/react-native-wheel-picker#readme",
+    "homepage": "https://github.com/whiskerman/react-native-wheel-picker#readme",
     "dependencies": {
+      "@react-native-picker/picker": "^1.9.7"
       "prop-types": "^15.5.10"
     },
-    "devDependencies": {
-      react": "16.8.6",
-      "react-native": "0.60.6",    
+    "devDependencies": {  
       "typescript": "^3.5.2"
     },
     "peerDependencies": {
