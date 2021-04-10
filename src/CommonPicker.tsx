@@ -331,6 +331,7 @@ export default class CommonPicker extends Component<IProps,IState> {
                 <View style={styles.pickerWheel} key={index}>
                     <Picker
                         selectedValue={this.state.wheelSelectedIndexes[index]}
+                        itemStyle={{fontSize:16}}
                         onValueChange={valueIndex => {
                             this.pickedValue.splice(index, 1, pickerData[index][valueIndex]);
                             this._updateSelectedIndex(index, valueIndex);
@@ -358,6 +359,7 @@ export default class CommonPicker extends Component<IProps,IState> {
                             <View key={index} style={styles.pickerWheel}>
                                 <Picker
                                     ref={ref=>this.wheelRefs[index]=ref}
+                                    itemStyle={{fontSize:16}}
                                     selectedValue={this.state.wheelSelectedIndexes[index]}
                                     onValueChange={valueIndex => {
                                         let cascadeData = this._getCascadeData(pickerData, false, [],index,parseInt(valueIndex+''));
